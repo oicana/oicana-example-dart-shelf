@@ -1,0 +1,19 @@
+name: oicana_example_dart_shelf
+description: Example Dart web service with shelf that uses Oicana for PDF templating.
+publish_to: none
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  async: ^2.13.0
+  http_parser: ^4.1.2
+  mime: ^2.0.0
+  oicana: ^0.10.0-rc.3
+  shelf: ^1.4.2
+  shelf_router: ^1.1.4
+  uuid: ^4.5.1
+
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.33.0
